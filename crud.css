@@ -1,0 +1,49 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 5px 0;
+    font-size: 16px;
+}
+
+.item1 {
+    grid-column: 2/2;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.input1 {
+    width: 150px;
+}
+.divTable{
+    margin-top: 56px;
+    margin-left: 43px;
+}
+.submit{
+    margin-left: 37px;
+}
+.divForm{
+    border-style: solid;
+    border-color: black;
+}
